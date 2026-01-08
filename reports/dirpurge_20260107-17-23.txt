@@ -1,0 +1,37 @@
+============================================================
+DirPurge Operation Report
+============================================================
+Generated: 2026-01-07 17:23:36
+Target Directory: C:\Users\EP-MOL~1\AppData\Local\Temp\2\tmp9p8vqju4\target
+Dry Run Mode: Yes
+
+Configuration:
+  Minimum files to keep: 5
+  Maximum age (days): 100
+  Excluded extensions: .PL, .TXT, .CSV, .ZIP
+
+Summary:
+  Total files scanned: 20
+  File sets found: 1
+  Files to delete: 10
+  Files preserved: 10
+  Actual deletions: 10
+  Execution time: 0.00 seconds
+
+File Set Details:
+  bulk:
+    Total files: 20
+    To delete: 10
+    Preserved: 10
+
+Files to Delete:
+  - bulk__010.dat (2025-09-29 17:23:36)
+  - bulk__011.dat (2025-09-19 17:23:36)
+  - bulk__012.dat (2025-09-09 17:23:36)
+  - bulk__013.dat (2025-08-30 17:23:36)
+  - bulk__014.dat (2025-08-20 17:23:36)
+  - bulk__015.dat (2025-08-10 17:23:36)
+  - bulk__016.dat (2025-07-31 17:23:36)
+  - bulk__017.dat (2025-07-21 17:23:36)
+  - bulk__018.dat (2025-07-11 17:23:36)
+  - bulk__019.dat (2025-07-01 17:23:36)

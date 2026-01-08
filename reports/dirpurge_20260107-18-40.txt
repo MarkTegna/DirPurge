@@ -1,0 +1,5403 @@
+============================================================
+DirPurge Operation Report
+============================================================
+Generated: 2026-01-07 18:40:20
+Target Directory: \\EIT-PRINWUTIL01\TestTest$
+Dry Run Mode: Yes
+
+Configuration:
+  Minimum files to keep: 50
+  Maximum age (days): 366
+  Excluded extensions: .PL, .TXT, .CSV, .ZIP
+
+Summary:
+  Total files scanned: 79738
+  File sets found: 1345
+  Files to delete: 11815
+  Files preserved: 67923
+  Actual deletions: 11815
+  Execution time: 0.00 seconds
+
+File Set Details:
+  AWE-BC-UW01:
+    Total files: 120
+    To delete: 63
+    Preserved: 57
+  AWE-SIRIUS-UW04:
+    Total files: 20
+    To delete: 0
+    Preserved: 20
+  BORO-CORE-A:
+    Total files: 169
+    To delete: 107
+    Preserved: 62
+  BORO-IDF-SW01:
+    Total files: 121
+    To delete: 63
+    Preserved: 58
+  BORO-IDF-SW02:
+    Total files: 122
+    To delete: 64
+    Preserved: 58
+  BORO-IDF-SW03:
+    Total files: 119
+    To delete: 64
+    Preserved: 55
+  BORO-IDF-SW04:
+    Total files: 120
+    To delete: 66
+    Preserved: 54
+  BORO-LAB-CORE-A:
+    Total files: 80
+    To delete: 27
+    Preserved: 53
+  BORO-MDF-SW01:
+    Total files: 122
+    To delete: 65
+    Preserved: 57
+  BORO-MDF-SW02:
+    Total files: 118
+    To delete: 62
+    Preserved: 56
+  BORO-MDF-SW03:
+    Total files: 121
+    To delete: 64
+    Preserved: 57
+  BORO-MDF-SW04:
+    Total files: 123
+    To delete: 70
+    Preserved: 53
+  BORO-MDF-SW05:
+    Total files: 114
+    To delete: 57
+    Preserved: 57
+  BORO-MPR-SW01:
+    Total files: 123
+    To delete: 67
+    Preserved: 56
+  BORO-ROAM-SW01:
+    Total files: 112
+    To delete: 59
+    Preserved: 53
+  BORO-UW01:
+    Total files: 171
+    To delete: 110
+    Preserved: 61
+  BORO-UW02:
+    Total files: 161
+    To delete: 104
+    Preserved: 57
+  CMCH-CLIENT-SW01:
+    Total files: 141
+    To delete: 61
+    Preserved: 80
+  CMCH-CLIENT-SW02:
+    Total files: 154
+    To delete: 63
+    Preserved: 91
+  CMCH-CORE-A:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  CMCH-CORE-B:
+    Total files: 135
+    To delete: 74
+    Preserved: 61
+  CMCH-COREMGMT-SW01:
+    Total files: 102
+    To delete: 39
+    Preserved: 63
+  CMCH-DR-SW01:
+    Total files: 120
+    To delete: 61
+    Preserved: 59
+  CMCH-DR-SW02:
+    Total files: 120
+    To delete: 61
+    Preserved: 59
+  CMCH-HUB-SW01:
+    Total files: 131
+    To delete: 68
+    Preserved: 63
+  CMCH-HUB-SW02:
+    Total files: 136
+    To delete: 65
+    Preserved: 71
+  CMCH-HUB2-SW01:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  CMCH-MGMT-SW01:
+    Total files: 123
+    To delete: 62
+    Preserved: 61
+  CMCH-MGMT-SW02:
+    Total files: 124
+    To delete: 63
+    Preserved: 61
+  CMCH-MGMT-SW03:
+    Total files: 120
+    To delete: 59
+    Preserved: 61
+  CMCH-NBC-SW01:
+    Total files: 93
+    To delete: 33
+    Preserved: 60
+  CMCH-P200-SW01:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  CMCH-P201-SW02:
+    Total files: 112
+    To delete: 54
+    Preserved: 58
+  CMCH-P202-SW02:
+    Total files: 108
+    To delete: 48
+    Preserved: 60
+  CMCH-P203-SW02:
+    Total files: 109
+    To delete: 49
+    Preserved: 60
+  CMCH-SVR-SW01:
+    Total files: 124
+    To delete: 65
+    Preserved: 59
+  CMCH-SVR-SW02:
+    Total files: 119
+    To delete: 60
+    Preserved: 59
+  CMCH-SVR-SW03:
+    Total files: 130
+    To delete: 71
+    Preserved: 59
+  CMCH-SVR-SW04:
+    Total files: 122
+    To delete: 63
+    Preserved: 59
+  CMCH-SVR-SW05:
+    Total files: 119
+    To delete: 59
+    Preserved: 60
+  CMCH-SVR-SW06:
+    Total files: 113
+    To delete: 63
+    Preserved: 50
+  CMCH-T114-SW01:
+    Total files: 114
+    To delete: 53
+    Preserved: 61
+  CMCH-T114-SW02:
+    Total files: 113
+    To delete: 51
+    Preserved: 62
+  CMCH-TECH14-SW01:
+    Total files: 26
+    To delete: 0
+    Preserved: 26
+  CMCH-TECH14-SW02:
+    Total files: 24
+    To delete: 0
+    Preserved: 24
+  DBL-MCHUB-SW01:
+    Total files: 111
+    To delete: 61
+    Preserved: 50
+  DBL-MCHUB-SW02:
+    Total files: 114
+    To delete: 64
+    Preserved: 50
+  DBL-SVR-SW01:
+    Total files: 121
+    To delete: 64
+    Preserved: 57
+  DBL-SVR-SW02:
+    Total files: 77
+    To delete: 27
+    Preserved: 50
+  DFW-MGNT-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  DFW-MGNT-SW02:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  DFW-MGNT-SW03:
+    Total files: 41
+    To delete: 0
+    Preserved: 41
+  DFW-MGNT-SW04:
+    Total files: 3
+    To delete: 0
+    Preserved: 3
+  DFW1-ACCESS-SW01:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  DFW1-ACCESS-SW02:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  DFW1-ACCESS-SW03:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  DFW1-ACCESS-SW04:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  DFW1-CORE-A:
+    Total files: 59
+    To delete: 9
+    Preserved: 50
+  DFW1-CORE-B:
+    Total files: 55
+    To delete: 5
+    Preserved: 50
+  DFW1-HUB-SW01:
+    Total files: 7
+    To delete: 0
+    Preserved: 7
+  DFW1-HUB-SW02:
+    Total files: 7
+    To delete: 0
+    Preserved: 7
+  DFW1-HUB-SW03:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  DFW1-HUB-SW04:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  DFW1-TEGNA-DMVPN1:
+    Total files: 296
+    To delete: 195
+    Preserved: 101
+  DFW1-TEGNA-DMVPN2:
+    Total files: 190
+    To delete: 125
+    Preserved: 65
+  EIT-PHX-UW01:
+    Total files: 88
+    To delete: 38
+    Preserved: 50
+  EIT-PHX-UW02:
+    Total files: 94
+    To delete: 44
+    Preserved: 50
+  IAD2-ACCESS-SW01:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  IAD2-ACCESS-SW02:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  IAD2-AI-MGMT-SW01:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  IAD2-AI-MGMT-SW02:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  IAD2-CORE-A:
+    Total files: 71
+    To delete: 21
+    Preserved: 50
+  IAD2-CORE-B:
+    Total files: 72
+    To delete: 22
+    Preserved: 50
+  IAD2-DC-UW01:
+    Total files: 81
+    To delete: 0
+    Preserved: 81
+  IAD2-DC-UW02:
+    Total files: 72
+    To delete: 0
+    Preserved: 72
+  IAD2-HUB-SW01:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  IAD2-HUB-SW02:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  IAD2-HUB-SW03:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  IAD2-HUB-SW04:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  IAD2-MGMT-SW01:
+    Total files: 134
+    To delete: 70
+    Preserved: 64
+  IAD2-MGMT-SW02:
+    Total files: 134
+    To delete: 70
+    Preserved: 64
+  IAD2-MGMT-SW03:
+    Total files: 118
+    To delete: 53
+    Preserved: 65
+  IAD2-MGMT-SW04:
+    Total files: 100
+    To delete: 50
+    Preserved: 50
+  iad2-tegna-56128p-1:
+    Total files: 28
+    To delete: 0
+    Preserved: 28
+  iad2-tegna-56128p-2:
+    Total files: 26
+    To delete: 0
+    Preserved: 26
+  iad2-tegna-dmvpn1:
+    Total files: 299
+    To delete: 203
+    Preserved: 96
+  IAD2-TEGNA-DMVPN2:
+    Total files: 150
+    To delete: 100
+    Preserved: 50
+  JDW-UW01:
+    Total files: 117
+    To delete: 64
+    Preserved: 53
+  KAGS-CORE-A:
+    Total files: 73
+    To delete: 23
+    Preserved: 50
+  KAGS-SW01:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  KAGS-SW02:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  KAGS-UW03:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KAGS-XMIT1-SW01:
+    Total files: 123
+    To delete: 59
+    Preserved: 64
+  KAGS-XMIT1-UW01:
+    Total files: 82
+    To delete: 18
+    Preserved: 64
+  KARE-2960-OOB-SW-A:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  KARE-2960G-BC-SW-C:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  KARE-BC-SW01:
+    Total files: 131
+    To delete: 68
+    Preserved: 63
+  KARE-BC-SW02:
+    Total files: 132
+    To delete: 66
+    Preserved: 66
+  KARE-BC-SW03:
+    Total files: 142
+    To delete: 62
+    Preserved: 80
+  KARE-BC-SW04:
+    Total files: 141
+    To delete: 62
+    Preserved: 79
+  KARE-CORE-A:
+    Total files: 126
+    To delete: 72
+    Preserved: 54
+  KARE-MC-SW1:
+    Total files: 3
+    To delete: 0
+    Preserved: 3
+  KARE-MCHUB-SW01:
+    Total files: 117
+    To delete: 61
+    Preserved: 56
+  KARE-MCHUB-SW02:
+    Total files: 117
+    To delete: 61
+    Preserved: 56
+  KARE-NEWS-SW1:
+    Total files: 122
+    To delete: 65
+    Preserved: 57
+  KARE-NEWS-SW2:
+    Total files: 126
+    To delete: 65
+    Preserved: 61
+  KARE-NEWS-SW3:
+    Total files: 127
+    To delete: 65
+    Preserved: 62
+  KARE-RCPHONES:
+    Total files: 126
+    To delete: 64
+    Preserved: 62
+  KARE-SALES-SW01:
+    Total files: 142
+    To delete: 83
+    Preserved: 59
+  KARE-SALES-SW02:
+    Total files: 126
+    To delete: 66
+    Preserved: 60
+  KARE-STUDIO-B:
+    Total files: 118
+    To delete: 45
+    Preserved: 73
+  KARE-STUDIOA:
+    Total files: 135
+    To delete: 66
+    Preserved: 69
+  KARE-TOC-SW05:
+    Total files: 138
+    To delete: 66
+    Preserved: 72
+  KARE-UW01:
+    Total files: 130
+    To delete: 67
+    Preserved: 63
+  KARE-UW02:
+    Total files: 92
+    To delete: 42
+    Preserved: 50
+  KARE-UW04:
+    Total files: 119
+    To delete: 65
+    Preserved: 54
+  KARE-UW05:
+    Total files: 115
+    To delete: 59
+    Preserved: 56
+  KARE-XMIT1-SW01:
+    Total files: 113
+    To delete: 59
+    Preserved: 54
+  KARE-XMIT1-UW01:
+    Total files: 126
+    To delete: 67
+    Preserved: 59
+  KBMT-CORE-A:
+    Total files: 128
+    To delete: 66
+    Preserved: 62
+  KBMT-DR1-SW01:
+    Total files: 122
+    To delete: 64
+    Preserved: 58
+  KBMT-DR1-UW01:
+    Total files: 130
+    To delete: 74
+    Preserved: 56
+  KBMT-MCHUB-SW01:
+    Total files: 114
+    To delete: 60
+    Preserved: 54
+  KBMT-MCHUB-SW02:
+    Total files: 114
+    To delete: 60
+    Preserved: 54
+  KBMT-MCHUB-SW03:
+    Total files: 115
+    To delete: 61
+    Preserved: 54
+  KBMT-MCHUB-SW04:
+    Total files: 115
+    To delete: 61
+    Preserved: 54
+  KBMT-SW01:
+    Total files: 121
+    To delete: 61
+    Preserved: 60
+  KBMT-SW02:
+    Total files: 119
+    To delete: 59
+    Preserved: 60
+  KBMT-SW03:
+    Total files: 122
+    To delete: 62
+    Preserved: 60
+  KBMT-SW04:
+    Total files: 125
+    To delete: 62
+    Preserved: 63
+  KBMT-SW05:
+    Total files: 117
+    To delete: 61
+    Preserved: 56
+  KBMT-SW06:
+    Total files: 119
+    To delete: 60
+    Preserved: 59
+  KBMT-SW07:
+    Total files: 139
+    To delete: 70
+    Preserved: 69
+  KBMT-SW08:
+    Total files: 119
+    To delete: 62
+    Preserved: 57
+  KBMT-SW09:
+    Total files: 118
+    To delete: 61
+    Preserved: 57
+  KBMT-SW10:
+    Total files: 125
+    To delete: 64
+    Preserved: 61
+  KBMT-SW11:
+    Total files: 127
+    To delete: 68
+    Preserved: 59
+  KBMT-UW01:
+    Total files: 25
+    To delete: 0
+    Preserved: 25
+  KBMT-UW02:
+    Total files: 29
+    To delete: 0
+    Preserved: 29
+  KBMT-XMIT-SW01:
+    Total files: 101
+    To delete: 51
+    Preserved: 50
+  KBMT-XMIT1-SW01:
+    Total files: 30
+    To delete: 0
+    Preserved: 30
+  KBMT-XMIT1-UW01:
+    Total files: 125
+    To delete: 67
+    Preserved: 58
+  KCEN-AUTO-SW01:
+    Total files: 130
+    To delete: 62
+    Preserved: 68
+  KCEN-CORE-A-NEW:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KCEN-CORE-A:
+    Total files: 145
+    To delete: 77
+    Preserved: 68
+  KCEN-MCHUB-SW01:
+    Total files: 118
+    To delete: 63
+    Preserved: 55
+  KCEN-MCHUB-SW02:
+    Total files: 118
+    To delete: 63
+    Preserved: 55
+  KCEN-SW01:
+    Total files: 126
+    To delete: 63
+    Preserved: 63
+  KCEN-SW02:
+    Total files: 122
+    To delete: 63
+    Preserved: 59
+  KCEN-SW04:
+    Total files: 130
+    To delete: 64
+    Preserved: 66
+  KCEN-SW05:
+    Total files: 135
+    To delete: 68
+    Preserved: 67
+  KCEN-SW06:
+    Total files: 137
+    To delete: 75
+    Preserved: 62
+  KCEN-SW07:
+    Total files: 130
+    To delete: 69
+    Preserved: 61
+  KCEN-SW08:
+    Total files: 134
+    To delete: 66
+    Preserved: 68
+  KCEN-SW09:
+    Total files: 109
+    To delete: 59
+    Preserved: 50
+  KCEN-SW10:
+    Total files: 117
+    To delete: 59
+    Preserved: 58
+  KCEN-SW11:
+    Total files: 132
+    To delete: 71
+    Preserved: 61
+  KCEN-TRANS-SW01:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  KCEN-UW01:
+    Total files: 31
+    To delete: 0
+    Preserved: 31
+  KCEN-UW02:
+    Total files: 31
+    To delete: 0
+    Preserved: 31
+  KCEN-UW03:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KCEN-UW04:
+    Total files: 51
+    To delete: 1
+    Preserved: 50
+  KCEN-XMIT1-SW01:
+    Total files: 81
+    To delete: 21
+    Preserved: 60
+  KCEN-XMIT1-UW01:
+    Total files: 79
+    To delete: 22
+    Preserved: 57
+  KENS-2NDFLOOR-01:
+    Total files: 100
+    To delete: 50
+    Preserved: 50
+  KENS-2NDFLOOR-02:
+    Total files: 99
+    To delete: 49
+    Preserved: 50
+  KENS-BCENTRAL-01:
+    Total files: 122
+    To delete: 66
+    Preserved: 56
+  KENS-BCENTRAL-02:
+    Total files: 125
+    To delete: 66
+    Preserved: 59
+  KENS-CORE-A:
+    Total files: 149
+    To delete: 80
+    Preserved: 69
+  KENS-GDSA-02:
+    Total files: 131
+    To delete: 70
+    Preserved: 61
+  KENS-MAINT-02:
+    Total files: 145
+    To delete: 74
+    Preserved: 71
+  KENS-MCHUB-SW01:
+    Total files: 116
+    To delete: 62
+    Preserved: 54
+  KENS-MCHUB-SW02:
+    Total files: 116
+    To delete: 62
+    Preserved: 54
+  KENS-NEWS-01:
+    Total files: 90
+    To delete: 40
+    Preserved: 50
+  KENS-NEWS-02:
+    Total files: 91
+    To delete: 41
+    Preserved: 50
+  KENS-NEWS-03:
+    Total files: 90
+    To delete: 40
+    Preserved: 50
+  KENS-RFROOM-01:
+    Total files: 126
+    To delete: 71
+    Preserved: 55
+  KENS-STUDIO-LRG-01:
+    Total files: 123
+    To delete: 67
+    Preserved: 56
+  KENS-TECHAREA-01:
+    Total files: 129
+    To delete: 70
+    Preserved: 59
+  KENS-TECHAREA-02:
+    Total files: 130
+    To delete: 71
+    Preserved: 59
+  KENS-TECHAREA-03:
+    Total files: 136
+    To delete: 77
+    Preserved: 59
+  KENS-TECHAREA-04:
+    Total files: 120
+    To delete: 62
+    Preserved: 58
+  KENS-TECHAREA-05:
+    Total files: 104
+    To delete: 54
+    Preserved: 50
+  KENS-TECHAREA-06:
+    Total files: 134
+    To delete: 77
+    Preserved: 57
+  KENS-TELCO-01:
+    Total files: 130
+    To delete: 69
+    Preserved: 61
+  KENS-UW01:
+    Total files: 139
+    To delete: 72
+    Preserved: 67
+  KENS-UW02:
+    Total files: 140
+    To delete: 73
+    Preserved: 67
+  KENS-XMTR-01:
+    Total files: 130
+    To delete: 76
+    Preserved: 54
+  KFMB-BKUP-SW01:
+    Total files: 71
+    To delete: 21
+    Preserved: 50
+  KFMB-CORE-A:
+    Total files: 124
+    To delete: 74
+    Preserved: 50
+  KFMB-ELC-SW01:
+    Total files: 130
+    To delete: 63
+    Preserved: 67
+  KFMB-ELC-SW02:
+    Total files: 128
+    To delete: 63
+    Preserved: 65
+  KFMB-IDF-1K:
+    Total files: 125
+    To delete: 64
+    Preserved: 61
+  KFMB-IDF-2K:
+    Total files: 126
+    To delete: 67
+    Preserved: 59
+  KFMB-IDF-4K:
+    Total files: 126
+    To delete: 64
+    Preserved: 62
+  KFMB-MCHUB-SW01:
+    Total files: 117
+    To delete: 60
+    Preserved: 57
+  KFMB-MCHUB-SW02:
+    Total files: 117
+    To delete: 60
+    Preserved: 57
+  KFMB-MDF-SW03:
+    Total files: 121
+    To delete: 59
+    Preserved: 62
+  KFMB-SOLEDAD-SW01:
+    Total files: 89
+    To delete: 39
+    Preserved: 50
+  KFMB-STUDIO-SWB1:
+    Total files: 44
+    To delete: 0
+    Preserved: 44
+  KFMB-SVR-SW01:
+    Total files: 179
+    To delete: 69
+    Preserved: 110
+  KFMB-SVR-SW02:
+    Total files: 162
+    To delete: 74
+    Preserved: 88
+  KFMB-SVR-SW03:
+    Total files: 42
+    To delete: 0
+    Preserved: 42
+  KFMB-SVR-SW04:
+    Total files: 131
+    To delete: 61
+    Preserved: 70
+  KFMB-TROLL-SW01:
+    Total files: 168
+    To delete: 61
+    Preserved: 107
+  KFMB-UW01:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  KFMB-UW02:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  KFMB-XMIT1-SW01:
+    Total files: 129
+    To delete: 62
+    Preserved: 67
+  KFMB-XMIT1-UW01:
+    Total files: 128
+    To delete: 71
+    Preserved: 57
+  KFMB-XMIT2-SW01:
+    Total files: 109
+    To delete: 59
+    Preserved: 50
+  KFMB-XMIT2-UW01:
+    Total files: 125
+    To delete: 64
+    Preserved: 61
+  KFSM-3650-BC-SW-A:
+    Total files: 123
+    To delete: 61
+    Preserved: 62
+  KFSM-3650-BC-SW-B:
+    Total files: 132
+    To delete: 66
+    Preserved: 66
+  KFSM-3650-core-stack:
+    Total files: 127
+    To delete: 63
+    Preserved: 64
+  KFSM-3650-eng-stack:
+    Total files: 65
+    To delete: 15
+    Preserved: 50
+  KFSM-3650-news-stack:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  KFSM-3850-core-stack:
+    Total files: 116
+    To delete: 57
+    Preserved: 59
+  KFSM-CORE-A:
+    Total files: 129
+    To delete: 73
+    Preserved: 56
+  KFSM-ENG-101-Sw01:
+    Total files: 117
+    To delete: 58
+    Preserved: 59
+  KFSM-Figure5-SW01:
+    Total files: 108
+    To delete: 52
+    Preserved: 56
+  KFSM-IDF-SW01:
+    Total files: 121
+    To delete: 63
+    Preserved: 58
+  KFSM-IT-RM137-SW01:
+    Total files: 94
+    To delete: 44
+    Preserved: 50
+  KFSM-MCHUB-SW01:
+    Total files: 116
+    To delete: 60
+    Preserved: 56
+  KFSM-MCHUB-SW02:
+    Total files: 116
+    To delete: 60
+    Preserved: 56
+  KFSM-MetroE-FtSmith:
+    Total files: 115
+    To delete: 58
+    Preserved: 57
+  KFSM-MetroE-Winslow_BACKUP:
+    Total files: 116
+    To delete: 50
+    Preserved: 66
+  KFSM-MetroE-Winslow:
+    Total files: 13
+    To delete: 0
+    Preserved: 13
+  KFSM-NEWS-SW01:
+    Total files: 120
+    To delete: 59
+    Preserved: 61
+  KFSM-RK102-SW01:
+    Total files: 140
+    To delete: 67
+    Preserved: 73
+  KFSM-RK103-SW01:
+    Total files: 135
+    To delete: 68
+    Preserved: 67
+  KFSM-Studio-SW01:
+    Total files: 126
+    To delete: 65
+    Preserved: 61
+  KFSM-TEGNA-STAGE-SW01:
+    Total files: 90
+    To delete: 40
+    Preserved: 50
+  KFSM-UW01:
+    Total files: 156
+    To delete: 85
+    Preserved: 71
+  KFSM-UW02:
+    Total files: 154
+    To delete: 84
+    Preserved: 70
+  KFSM-Winslow-SW01:
+    Total files: 110
+    To delete: 47
+    Preserved: 63
+  KGW-000-R25-SW01:
+    Total files: 96
+    To delete: 36
+    Preserved: 60
+  KGW-000-R59-SW01:
+    Total files: 70
+    To delete: 20
+    Preserved: 50
+  KGW-000-R61-SW01:
+    Total files: 97
+    To delete: 38
+    Preserved: 59
+  KGW-000-R61-SW02:
+    Total files: 97
+    To delete: 39
+    Preserved: 58
+  KGW-000-R70-SW01:
+    Total files: 135
+    To delete: 72
+    Preserved: 63
+  KGW-000-R71-SW00:
+    Total files: 44
+    To delete: 0
+    Preserved: 44
+  KGW-000-R71-SW02:
+    Total files: 104
+    To delete: 46
+    Preserved: 58
+  KGW-CORE-A:
+    Total files: 160
+    To delete: 93
+    Preserved: 67
+  KGW-DR1-SW01:
+    Total files: 63
+    To delete: 13
+    Preserved: 50
+  KGW-DR1-UW01:
+    Total files: 59
+    To delete: 9
+    Preserved: 50
+  KGW-IFD2-R03-SW01:
+    Total files: 43
+    To delete: 0
+    Preserved: 43
+  KGW-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KGW-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KGW-UW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KGW-UW02:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KGW-UW03:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KHOU-115-SW01:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KHOU-201-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  KHOU-2nd-SW01:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  KHOU-2nd-SW02:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KHOU-308-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KHOU-308-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KHOU-315-SW01:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KHOU-315-SW02:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KHOU-315-SW03:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-401-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KHOU-405-SW01:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KHOU-405-SW02:
+    Total files: 13
+    To delete: 0
+    Preserved: 13
+  KHOU-503-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KHOU-509-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KHOU-510-SW01:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  KHOU-510-SW02:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KHOU-CORE-A:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  KHOU-DR1-SW02:
+    Total files: 13
+    To delete: 0
+    Preserved: 13
+  KHOU-DR1-SW03:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KHOU-DR1-UW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-ENGSHOP:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KHOU-IDF2-SOLO:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KHOU-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KHOU-PCR1-SW:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-PCR2-SW:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KHOU-RF-HUT:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-SALES-SOLO:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-SALES-STACK:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-SAT-HUT:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KHOU-SCANNER:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KHOU-SIGAC-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KHOU-STUDIO-A:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KHOU-TRANSMITTER:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KHOU-TSTAR-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KHOU-TSTAR-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KHOU-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KHOU-UW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KHOU-XMIT-UW01:
+    Total files: 38
+    To delete: 0
+    Preserved: 38
+  KHOU-XMIT1-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KHOU-XMT-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KHOU-XMT-SW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KIDY-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  KIDY-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KIDY-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KIDY-SW01:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  KIDY-SW02:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  KIDY-SW03:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KIDY-SW04:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KIDY-SW05:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KIDY-SW06:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  KIDY-SW07:
+    Total files: 90
+    To delete: 0
+    Preserved: 90
+  KIDY-SW08:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KIDY-SW09:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  KIDY-UW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KIDY-UW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KIII-CORE-A:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KIII-MCHUB-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KIII-MCHUB-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KIII-SW01:
+    Total files: 75
+    To delete: 0
+    Preserved: 75
+  KIII-SW02:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  KIII-SW03:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  KIII-SW04:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  KIII-SW05:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  KIII-UW01:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KIII-UW02:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KIII-XMIT1-SW01:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  KIII-XMIT1-UW01:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  KING-119-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KING-220-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KING-234-SW01:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  KING-301-SW02:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  KING-326-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KING-CER-101-SW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KING-CER-217-SW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KING-CER-301-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KING-CER-417-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KING-CER-501-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KING-CER-705-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KING-CER-706-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KING-CER-706-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KING-CORE-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KING-CR01-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KING-CR02-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KING-DR1-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KING-DR1-UW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KING-MC-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KING-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KING-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KING-OS1-SW01:
+    Total files: 35
+    To delete: 0
+    Preserved: 35
+  KING-STUDIO-A-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KING-TRANS-01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KING-TRANS-02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KING-UW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KING-UW02:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KMSB-SALES-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  KMSB-SALES-UW01:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  KMSB-SALES-UW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KPNX-10FLR-SW01:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  KPNX-1st_FLOOR-STK-SW01:
+    Total files: 20
+    To delete: 0
+    Preserved: 20
+  KPNX-2nd_FLOOR-SW01:
+    Total files: 21
+    To delete: 0
+    Preserved: 21
+  KPNX-2nd_FLOOR-SW02:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  KPNX-3rd_FLOOR-STK-SW01:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  KPNX-7FLR-SW02:
+    Total files: 19
+    To delete: 0
+    Preserved: 19
+  KPNX-CORE-A:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KPNX-MIRANDA-MGT:
+    Total files: 3
+    To delete: 0
+    Preserved: 3
+  KPNX-N-SW01:
+    Total files: 26
+    To delete: 0
+    Preserved: 26
+  KPNX-S-MC-SW01:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  KPNX-S-MC-SW02:
+    Total files: 24
+    To delete: 0
+    Preserved: 24
+  KPNX-S-SW01:
+    Total files: 21
+    To delete: 0
+    Preserved: 21
+  KPNX-S-SW02:
+    Total files: 23
+    To delete: 0
+    Preserved: 23
+  KPNX-S-SW03:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  KPNX-SOUTHMTN-SW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KPNX-UW01:
+    Total files: 29
+    To delete: 0
+    Preserved: 29
+  KPNX-UW02:
+    Total files: 28
+    To delete: 0
+    Preserved: 28
+  KREM-BC-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KREM-CORE-A:
+    Total files: 72
+    To delete: 0
+    Preserved: 72
+  KREM-ENG-01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KREM-ENG-02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KREM-MC-SW01:
+    Total files: 41
+    To delete: 0
+    Preserved: 41
+  KREM-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KREM-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KREM-NG-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KREM-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KREM-SW02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KREM-SW03:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KREM-SW04:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KREM-SW05:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KREM-SW06:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KREM-SW07:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  KREM-SW09:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KREM-SW10:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KREM-UW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KREM-UW02:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KREM-XMIT1-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KREM-XMIT1-UW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KSDK-CORE-A:
+    Total files: 98
+    To delete: 0
+    Preserved: 98
+  KSDK-CORE-MARKET:
+    Total files: 3
+    To delete: 0
+    Preserved: 3
+  KSDK-DIGI-DESK:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KSDK-EDITING:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KSDK-ESW14B:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  KSDK-ESW14C:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  KSDK-ESW14E:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KSDK-ESW14F:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KSDK-ESW15B:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  KSDK-ESW15C:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  KSDK-ESW15E:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KSDK-ESW15F:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KSDK-MANAGEMENT:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KSDK-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KSDK-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KSDK-NEW-DigiSet:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  KSDK-NEWSROOM-STACK:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KSDK-PCR1:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KSDK-PCR:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KSDK-RACKROOM-C:
+    Total files: 7
+    To delete: 0
+    Preserved: 7
+  KSDK-RACKROOM-D:
+    Total files: 7
+    To delete: 0
+    Preserved: 7
+  KSDK-SECURITY:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KSDK-SERVER-STACK-1:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KSDK-SERVER-STACK-2:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KSDK-SPARE-SW01:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  KSDK-STUDIO:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KSDK-TELCO-1:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KSDK-TELCO-2:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KSDK-TELCO-3:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KSDK-TRANS-RTR01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KSDK-TRANS-RTR02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KSDK-UW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KSDK-UW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KSDK-WEATHER-SW:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  KSDK-WEATHER:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KSDK-XMIT1-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KSDK-XMIT1-UW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KTBU-XMT-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  KTFT-XMIT1-SW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KTFT-XMIT1-UW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTHV-3650-BC-SW-C:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTHV-3650-CONFRM-SW-A:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTHV-3650-CTLRM-WG-A:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KTHV-3650-SALES-SW-A:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KTHV-3650-SVR-SW-A:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTHV-3650-SVR-SW-B:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTHV-3650-UPLINK-SW-A:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KTHV-3750X-BC-SW-A:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTHV-3750X-BC-SW-B:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KTHV-3750X-WX-SW-A:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTHV-3850-MC-SW-A:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KTHV-3850-MC-SW-B:
+    Total files: 81
+    To delete: 0
+    Preserved: 81
+  KTHV-BC-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KTHV-BC-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KTHV-CAPITAL-UW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KTHV-CORE-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KTHV-CTLRM-SW-B:
+    Total files: 31
+    To delete: 0
+    Preserved: 31
+  KTHV-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KTHV-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KTHV-UW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KTHV-UW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KTHV-XMIT1-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KTHV-XMIT1-UW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTVB-ACCESS-SW01:
+    Total files: 42
+    To delete: 0
+    Preserved: 42
+  KTVB-BITCENTRAL-SW1:
+    Total files: 37
+    To delete: 0
+    Preserved: 37
+  KTVB-BITCENTRAL-SW2:
+    Total files: 36
+    To delete: 0
+    Preserved: 36
+  KTVB-Camera-Sw:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  KTVB-Control-01:
+    Total files: 6
+    To delete: 0
+    Preserved: 6
+  KTVB-CORE-A:
+    Total files: 49
+    To delete: 0
+    Preserved: 49
+  KTVB-CreativeSrvc-NEWSW:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KTVB-CreativeSrvc-SW01:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  KTVB-Crispin-SW1:
+    Total files: 34
+    To delete: 0
+    Preserved: 34
+  KTVB-Crispin-SW2:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTVB-DirectorOfficeNEW:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  KTVB-DirectorOffice:
+    Total files: 37
+    To delete: 0
+    Preserved: 37
+  KTVB-DirectorsSW-NEWSW:
+    Total files: 19
+    To delete: 0
+    Preserved: 19
+  KTVB-Engineering-sw01:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  KTVB-Geovision:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KTVB-GRPHCS-01:
+    Total files: 34
+    To delete: 0
+    Preserved: 34
+  KTVB-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KTVB-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KTVB-MCHUB-SW03:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KTVB-MCHUB-SW04:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KTVB-OMNEON-SW1:
+    Total files: 6
+    To delete: 0
+    Preserved: 6
+  KTVB-OMNEON-SW2:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  KTVB-Rack100-SW1:
+    Total files: 97
+    To delete: 0
+    Preserved: 97
+  KTVB-Rack100-SW2:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  KTVB-RACK102-SW01:
+    Total files: 86
+    To delete: 0
+    Preserved: 86
+  KTVB-Rack103-SW1:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KTVB-Rack104-SW1:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KTVB-RACK108SW1:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KTVB-Rack113-SW1:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KTVB-Rack114-SW1:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KTVB-Rack114-SW2:
+    Total files: 1
+    To delete: 0
+    Preserved: 1
+  KTVB-Rack99-SW1:
+    Total files: 36
+    To delete: 0
+    Preserved: 36
+  KTVB-SALES-SW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KTVB-Studio-01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KTVB-Studio-02:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  KTVB-STUDIO-03:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KTVB-UW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KTVB-UW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KUSA-2960-TRANSMITTER-SW-A:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  KUSA-9300-2NDFLOOR-01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KUSA-9300-2NDFLOOR-02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KUSA-9300-BASEMENT-01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  KUSA-9300-BC-01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  KUSA-9300-BC-02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KUSA-9300-BROADCAST-01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KUSA-9300-MASTER-01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KUSA-9300-MIRANDA-01:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  KUSA-9300-NEWSROOM-01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KUSA-9300-RK122N-01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KUSA-9300-RK202-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KUSA-9300-RK202-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KUSA-CORE-A:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KUSA-DBL-SW1:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KUSA-DBL-SW2:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KUSA-DBL-SW3:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KUSA-MC-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KUSA-MC-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KUSA-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KUSA-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  KUSA-UW01-NEW:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  KUSA-UW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KUSA-UW02:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KVUE-AUX-SW1:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KVUE-BITCENTRAL-SW1:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  KVUE-CORE-A:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  KVUE-IDF-STK:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KVUE-ITSHOP-SW1:
+    Total files: 28
+    To delete: 0
+    Preserved: 28
+  KVUE-MAIN-SW01:
+    Total files: 29
+    To delete: 0
+    Preserved: 29
+  KVUE-MAIN-SW02:
+    Total files: 23
+    To delete: 0
+    Preserved: 23
+  KVUE-MDF-STK:
+    Total files: 28
+    To delete: 0
+    Preserved: 28
+  KVUE-STUDIO1-SW:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KVUE-TRANSMISSIONS-SW1:
+    Total files: 3
+    To delete: 0
+    Preserved: 3
+  KVUE-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  KVUE-UW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  KVUE-XMIT1-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KVUE-XMIT1-UW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KWES-2960-4:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  KWES-2960-5:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KWES-2960-6:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KWES-2960-8:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KWES-2960-9:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KWES-2960-Stack2:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KWES-2960-Stack3:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  KWES-2960-Stack7:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KWES-3650-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KWES-Core-3650:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KWES-CORE-A:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  KWES-DR1-UW01:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  KWES-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KWES-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KWES-STACK-01:
+    Total files: 13
+    To delete: 0
+    Preserved: 13
+  KWES-STACK-10:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KWES-UW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KWES-UW02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KWES-XMIT-SW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KWES-XMIT-UW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  KXTV-2960-MC-D:
+    Total files: 7
+    To delete: 0
+    Preserved: 7
+  KXTV-BC-SW01:
+    Total files: 25
+    To delete: 0
+    Preserved: 25
+  KXTV-BC-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KXTV-BC-SW03:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KXTV-CORE-A:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KXTV-EC-AP-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KXTV-EC-STACK1:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KXTV-MC-STACK1:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KXTV-MC-SVR-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KXTV-MC-SVR-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KXTV-MC-SVR-SW03:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KXTV-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KXTV-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KXTV-NEWS1-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KXTV-NEWS1-UW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  KXTV-NGN-SW01:
+    Total files: 48
+    To delete: 0
+    Preserved: 48
+  KXTV-RT-SW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  KXTV-SEC-SVR-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KXTV-STOCK-UW01:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  KXTV-STUDIO-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  KXTV-SVR-SW01:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  KXTV-SVR-SW03:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KXTV-UW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KXTV-UW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KXTV-UW04:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KXTV-WC-STACK1:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  KXTV-XMIT1-UW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KXVA-8thFlr-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  KXVA-Roof-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  KXVA-STUDIO1-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KXVA-STUIOD1-UW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  KXVA-XMIT1-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KXVA-XMIT1-UW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KYTX-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  KYTX-MCHUB-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  KYTX-MCHUB-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  KYTX-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  KYTX-SW03:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  KYTX-SW04:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  KYTX-SW06:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  KYTX-UW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KYTX-UW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  KYTX-XMIT-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KYTX-XMIT-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  KYTX-XMIT1-SW01:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  KYTX-XMIT1-UW01:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  LTVB-Rack104-SW2:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  LUMT-CORE-A:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  LUMV-CORE-A:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  MPG-UW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  NYC-CORE-A:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  NYC-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  NYC-UW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  NYCL-UW01:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  NYCL-UW02:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  NYCM-CORP-SW01:
+    Total files: 45
+    To delete: 0
+    Preserved: 45
+  NYCM-UW01:
+    Total files: 35
+    To delete: 0
+    Preserved: 35
+  ORAD-AS-170:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  ORAD-AS-171:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  ORAD-XMIT1-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  ORAD-XMIT1-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  REED-UW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  TANK-CLIENT-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  TANK-SERVER-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  TANK-SERVER-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  TEGNA-TRUCK-CORE-A:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  TEGNA-TRUCK-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  TEGNA-TRUCK-SW02:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  TEGNA-TRUCK-UW01:
+    Total files: 19
+    To delete: 0
+    Preserved: 19
+  TEGNA-TRUCK1-UW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  TEST-CORE-A:
+    Total files: 40
+    To delete: 0
+    Preserved: 40
+  TEST-MCHUB-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  TEST-MCHUB-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  TEST-UW01:
+    Total files: 21
+    To delete: 0
+    Preserved: 21
+  TEST-UW02:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  tnmemof1swi002:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  TYS-LAB5548-SW:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  WATL-XMIT1-UW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WATN-CORE-A:
+    Total files: 73
+    To delete: 0
+    Preserved: 73
+  WATN-MCHUB-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WATN-MCHUB-SW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WATN-MEMOF1-SW01:
+    Total files: 45
+    To delete: 0
+    Preserved: 45
+  WATN-MEMOF1-SW02:
+    Total files: 46
+    To delete: 0
+    Preserved: 46
+  WATN-MGMT-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WATN-MICROWAVE-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WATN-NGN-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WATN-STACK-SW01:
+    Total files: 78
+    To delete: 0
+    Preserved: 78
+  WATN-STACK-SW02:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WATN-SW02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WATN-SW03:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WATN-SW04:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WATN-SW05:
+    Total files: 45
+    To delete: 0
+    Preserved: 45
+  WATN-UW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WATN-UW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WBIR-2ND-SW01:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WBIR-CORE-A:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WBIR-CR-SW01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WBIR-CR-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WBIR-MC-SW01:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WBIR-MC-SW02:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WBIR-MC-SW03:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WBIR-MC-SW04:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WBIR-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WBIR-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WBIR-NEWS-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WBIR-NEWS-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WBIR-OOB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WBIR-PROD-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WBIR-STUDIO-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WBIR-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WBIR-UW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WBIR-XMIT1-SW01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WBIR-XMIT1-UW01:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WBNS-CORE-A:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  WBNS-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WBNS-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WBNS-RM154-AS-165:
+    Total files: 21
+    To delete: 0
+    Preserved: 21
+  WBNS-TX-FL2-179:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WBNS-TXMT-RK1-AS158:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WBNS-UW01:
+    Total files: 65
+    To delete: 1
+    Preserved: 64
+  WBNS-UW02:
+    Total files: 67
+    To delete: 1
+    Preserved: 66
+  WCNC-Automation-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCNC-Automation-SW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCNC-BITSTACK:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WCNC-CORE-A:
+    Total files: 80
+    To delete: 0
+    Preserved: 80
+  WCNC-DR1-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WCNC-DR1-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WCNC-Impact-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WCNC-MCHUB-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WCNC-MCHUB-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WCNC-NBC-SW01:
+    Total files: 17
+    To delete: 0
+    Preserved: 17
+  WCNC-NEWS-STACK:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WCNC-NEWSCAM:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WCNC-SERVER-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WCNC-SVR-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCNC-SVR-SW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCNC-SW5:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCNC-SW6:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WCNC-TC-RACK-22-SW01:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  WCNC-TC-SW10:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCNC-TCSTACK:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCNC-UW01-NEW:
+    Total files: 1
+    To delete: 0
+    Preserved: 1
+  WCNC-UW01:
+    Total files: 86
+    To delete: 0
+    Preserved: 86
+  WCNC-UW02-NEW:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  WCNC-UW02:
+    Total files: 85
+    To delete: 0
+    Preserved: 85
+  WCNC-XMIT1-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WCNC-XMIT1-UW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WCSH-AES67-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WCSH-BUREAU1-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WCSH-BUREAU1-UW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WCSH-CORE-A:
+    Total files: 76
+    To delete: 0
+    Preserved: 76
+  WCSH-IT-SW01:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  WCSH-IT-SW03:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WCSH-IT02:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WCSH-LAB-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCSH-MCR-SW-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCSH-MCR-SW-B:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCSH-MGMT-SW03:
+    Total files: 73
+    To delete: 0
+    Preserved: 73
+  WCSH-MGMT-SW04:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WCSH-SW01:
+    Total files: 73
+    To delete: 0
+    Preserved: 73
+  WCSH-SW02:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WCSH-SW03:
+    Total files: 99
+    To delete: 0
+    Preserved: 99
+  WCSH-SW04:
+    Total files: 108
+    To delete: 0
+    Preserved: 108
+  WCSH-UW01:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WCSH-UW02:
+    Total files: 72
+    To delete: 0
+    Preserved: 72
+  WCSH-UW03:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCSH-UW05:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WCSH-XMIT1-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WCSH-XMIT1-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFAA-AJA-MRR-R157:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WFAA-AJA-MRR-R8:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WFAA-ARLINGTON-SW01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WFAA-BLDSEC-SW01:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  WFAA-COM1-R194-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFAA-COM1-R194:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFAA-COM2-R252-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WFAA-COM2-R252-SW03:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WFAA-CONTROL-SW01:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  WFAA-CORE-A:
+    Total files: 81
+    To delete: 0
+    Preserved: 81
+  WFAA-DR1-UW01:
+    Total files: 26
+    To delete: 0
+    Preserved: 26
+  WFAA-GRPHCS-MRR-R31:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  WFAA-KHOU-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  wfaa-maintransmit2:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  wfaa-maintransmit:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WFAA-MARKET-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFAA-MC-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WFAA-MC-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WFAA-MCHUB-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WFAA-MCHUB-SW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WFAA-MRR-R044:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WFAA-MRR-R105:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFAA-MRR-R54:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFAA-NEWS-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WFAA-OMNEON-MRR-R32:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WFAA-PROD-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WFAA-RFR-R162:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WFAA-SRR-R422:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WFAA-SVR-SRR-R206:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WFAA-SVR-SRR-R207:
+    Total files: 13
+    To delete: 0
+    Preserved: 13
+  WFAA-TEMP-SW01:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  wfaa-topoftower:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  WFAA-UW-CEDARHILL:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WFAA-UW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WFAA-UW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WFAA-UW03:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WFAA-UW04:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WFAA-UW08:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WFAA-UW09:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WFAA-VENDOR-MRR-R80:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WFAA-VICTORYMAIN-10G:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WFAA-Victory:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  WFAA-WEATHER-MRR-R30:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WFAA-XDNEWS-MRR-R26:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WFAA-XMIT1-SW01:
+    Total files: 36
+    To delete: 0
+    Preserved: 36
+  WFMY-BC-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WFMY-BC-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFMY-CORE-A:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WFMY-HDRACK-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WFMY-MC-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WFMY-MC-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WFMY-MC-SW03:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WFMY-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WFMY-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WFMY-SERVER-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WFMY-SERVER-SW03:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WFMY-SERVER-SW04:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WFMY-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WFMY-UW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WFMY-UW04-DOT:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WFMY-XMIT1-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WFMY-XMIT1-UW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WGRX-MGMT-SW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WGRZ-AUT-SW01:
+    Total files: 15
+    To delete: 0
+    Preserved: 15
+  WGRZ-AUT-SW02:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WGRZ-BC-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WGRZ-BC-SW02:
+    Total files: 38
+    To delete: 0
+    Preserved: 38
+  WGRZ-CAM1-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WGRZ-CLIENT-STACK01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WGRZ-CLIENT-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WGRZ-CLIENT-SW02:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WGRZ-CORE-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WGRZ-DEVICE-SW02:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  WGRZ-ELC-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WGRZ-FLOOR2-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WGRZ-MAIN-OOB-SW01:
+    Total files: 1
+    To delete: 0
+    Preserved: 1
+  WGRZ-MAIN-SW01:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WGRZ-MCHUB-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WGRZ-MCHUB-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WGRZ-MCR-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WGRZ-MCR-SW02:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WGRZ-MCR-SW03:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WGRZ-MCR-SW04:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  WGRZ-MGMT-SW01:
+    Total files: 3
+    To delete: 0
+    Preserved: 3
+  WGRZ-MGMT-SW02:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  WGRZ-NEWS-AUX-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WGRZ-NEWS-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WGRZ-SECURITY-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WGRZ-STL1-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WGRZ-SVR-SW03:
+    Total files: 23
+    To delete: 0
+    Preserved: 23
+  WGRZ-UW01:
+    Total files: 13
+    To delete: 0
+    Preserved: 13
+  WGRZ-UW02:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WGRZ-UW06:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  WGRZ-XMIT1-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WGRZ-XMIT1-UW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WHAS-ACCESS-01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WHAS-ACCESS-02:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WHAS-CORE-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WHAS-CS-A:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WHAS-CS-B:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WHAS-GCTRL-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WHAS-LARRYBENCH-SW01:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  WHAS-MAXBENCH-SW01:
+    Total files: 45
+    To delete: 0
+    Preserved: 45
+  WHAS-MC-SW02:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WHAS-MC-SW03:
+    Total files: 72
+    To delete: 0
+    Preserved: 72
+  WHAS-NEWS-A:
+    Total files: 86
+    To delete: 0
+    Preserved: 86
+  WHAS-NEWS-B:
+    Total files: 77
+    To delete: 0
+    Preserved: 77
+  WHAS-PLUSSTUDIO-A:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  WHAS-RackRoom-A:
+    Total files: 82
+    To delete: 0
+    Preserved: 82
+  WHAS-RINGCENTRAL-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WHAS-RINGCENTRAL-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WHAS-SALES01:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WHAS-SALES02:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  WHAS-Studio-G:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  WHAS-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WHAS-UW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WHAS-WESTWING-A:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WHAS-XMIT1-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WHAS-XMIT1-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WKYC-9200-STA-584-SW-A:
+    Total files: 37
+    To delete: 0
+    Preserved: 37
+  WKYC-ACCESS-SW-C:
+    Total files: 32
+    To delete: 0
+    Preserved: 32
+  WKYC-CORE-A-NEW:
+    Total files: 21
+    To delete: 0
+    Preserved: 21
+  WKYC-CORE-A-OLD:
+    Total files: 26
+    To delete: 0
+    Preserved: 26
+  WKYC-CORE-A:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WKYC-EJ-309-A:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WKYC-OPS-150-A:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WKYC-OPS-150-B:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WKYC-OPS-150-C:
+    Total files: 83
+    To delete: 0
+    Preserved: 83
+  WKYC-OPS-150-D:
+    Total files: 80
+    To delete: 0
+    Preserved: 80
+  WKYC-OPS-150-E:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WKYC-OPS-151-A:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WKYC-OPS-151-B:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  WKYC-OPS-151-C:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WKYC-OPS-151-D:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  WKYC-OPS-151-E:
+    Total files: 49
+    To delete: 0
+    Preserved: 49
+  WKYC-PCR-A-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WKYC-PCR-A-B:
+    Total files: 48
+    To delete: 0
+    Preserved: 48
+  WKYC-PROMO-A:
+    Total files: 49
+    To delete: 0
+    Preserved: 49
+  WKYC-SHOP-A:
+    Total files: 82
+    To delete: 0
+    Preserved: 82
+  WKYC-SHOP-B:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WKYC-SPARE-SW-1:
+    Total files: 15
+    To delete: 0
+    Preserved: 15
+  WKYC-SPARE-SW-2:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WKYC-STU-A-A:
+    Total files: 27
+    To delete: 0
+    Preserved: 27
+  WKYC-SVR-STACK-A:
+    Total files: 47
+    To delete: 0
+    Preserved: 47
+  WKYC-SVR-STACK-B:
+    Total files: 32
+    To delete: 0
+    Preserved: 32
+  WKYC-TELCO-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WKYC-TX-103-A:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WKYC-TX-103-B:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WKYC-TX-201-A:
+    Total files: 33
+    To delete: 0
+    Preserved: 33
+  WKYC-UW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WKYC-UW02:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WKYC-WX-A:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WKYC-WX-SW-A:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  WLBZ-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WLBZ-MGMT-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WLBZ-SHOP-SW01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WLBZ-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WLBZ-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WLBZ-XMIT1-SW01:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WLBZ-XMIT1-UW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WLTX-CORE-A:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WLTX-CORE-IPT-STACK:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WLTX-MC-UTIL-A:
+    Total files: 41
+    To delete: 0
+    Preserved: 41
+  WLTX-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WLTX-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WLTX-NEWS-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WLTX-NEWS-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WLTX-OOB-SW01:
+    Total files: 34
+    To delete: 0
+    Preserved: 34
+  WLTX-RACKROOM-MGMT-SW01:
+    Total files: 80
+    To delete: 0
+    Preserved: 80
+  WLTX-RACKROOM-MGMT-SW02:
+    Total files: 89
+    To delete: 0
+    Preserved: 89
+  WLTX-RACKROOM-RACK10:
+    Total files: 74
+    To delete: 0
+    Preserved: 74
+  WLTX-RACKROOM-STACK01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WLTX-SALES-STACK-2:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WLTX-SERVER-SW-02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WLTX-SERVER-SW01:
+    Total files: 35
+    To delete: 0
+    Preserved: 35
+  WLTX-SERVER-SW02:
+    Total files: 34
+    To delete: 0
+    Preserved: 34
+  WLTX-SVR-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WLTX-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WLTX-UW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WLTX-WEATHER-SW01:
+    Total files: 81
+    To delete: 0
+    Preserved: 81
+  WLTX-XMIT1-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WLTX-XMIT1-UW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WMAZ-1ST-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WMAZ-1ST-SW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WMAZ-1ST-SW03:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WMAZ-2960-OOB-SW-A:
+    Total files: 39
+    To delete: 0
+    Preserved: 39
+  WMAZ-2ND-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WMAZ-2ND-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WMAZ-3650-MC-SW-A:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WMAZ-3650-MC-SW-B:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WMAZ-3750X-BC-SW-A:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WMAZ-3750X-BC-SW-B:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WMAZ-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WMAZ-MC-9200-SW01:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  WMAZ-MCHUB-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WMAZ-MCHUB-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WMAZ-NETADMIN-SW1:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WMAZ-SERVER-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WMAZ-SERVER-SW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WMAZ-STUDIO-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WMAZ-UW01:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  WMAZ-UW02:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  WNEP-3850-Core:
+    Total files: 19
+    To delete: 0
+    Preserved: 19
+  WNEP-BC-SW-01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WNEP-BC-SW-02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WNEP-CORE-A:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WNEP-engineering-3650:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WNEP-Graphics-3650:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WNEP-MCHUB-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WNEP-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WNEP-MGMT01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WNEP-News-SWSTACK:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WNEP-Production-3650:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  WNEP-SECURITY-1:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WNEP-SVRROOM-SWSTACK:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WNEP-Tech-SWSTACK:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  WNEP-Tons-SWSTACK:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WNEP-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WNEP-UW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WNEP-XMIT1-UW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WOI-6509-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WOI-CORE-A:
+    Total files: 75
+    To delete: 0
+    Preserved: 75
+  WOI-MCHUB-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WOI-MCHUB-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WOI-MGMT01:
+    Total files: 77
+    To delete: 0
+    Preserved: 77
+  WOI-NGN-PCR-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WOI-NGN-TIC-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WOI-RK11_STK-SW01:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  WOI-RK11_STK-SW02:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  WOI-TRANS-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WOI-UW01:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  WOI-UW02:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  WOI-UW03:
+    Total files: 29
+    To delete: 0
+    Preserved: 29
+  WOI-XMIT1-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WOI-XMIT1-UW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  WPMT-BC-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WPMT-BC-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WPMT-CLIENT-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WPMT-CLIENT-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WPMT-CORE-A:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WPMT-HALLAM-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WPMT-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WPMT-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WPMT-MGMT01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WPMT-MGMT02:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  WPMT-MGMT03:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WPMT-MGMT04:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WPMT-MGMT05:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WPMT-NETWORK-SW01:
+    Total files: 76
+    To delete: 0
+    Preserved: 76
+  WPMT-NETWORK-SW02:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WPMT-NETWORK-SW03:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WPMT-NETWORK-SW04:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WPMT-OPUS-SW3560:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  WPMT-UW01:
+    Total files: 29
+    To delete: 0
+    Preserved: 29
+  WPMT-UW02:
+    Total files: 29
+    To delete: 0
+    Preserved: 29
+  WPMT-WEATHER:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  WPMT-WITF-1:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WQAD-BC-SW01:
+    Total files: 43
+    To delete: 0
+    Preserved: 43
+  WQAD-BC-SW02:
+    Total files: 44
+    To delete: 0
+    Preserved: 44
+  WQAD-BROADCAST-SW-01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WQAD-BROADCAST-SW-02:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WQAD-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WQAD-FEED-STACK-01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WQAD-LOFT-SW-01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WQAD-MC-STACK-01:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WQAD-MC-SW-01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WQAD-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WQAD-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WQAD-MGMT-SW-01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WQAD-MGMT-SW01:
+    Total files: 2
+    To delete: 0
+    Preserved: 2
+  WQAD-MGMT01:
+    Total files: 43
+    To delete: 0
+    Preserved: 43
+  WQAD-NEWS-STACK-01:
+    Total files: 40
+    To delete: 0
+    Preserved: 40
+  WQAD-PCR-SW-01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WQAD-SALES-STACK-01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WQAD-SW-01:
+    Total files: 42
+    To delete: 0
+    Preserved: 42
+  WQAD-UW01:
+    Total files: 73
+    To delete: 0
+    Preserved: 73
+  WQAD-UW02:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WQAD-XMIT1-UW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WTHR-CORE-A:
+    Total files: 74
+    To delete: 0
+    Preserved: 74
+  WTHR-IMS:
+    Total files: 39
+    To delete: 0
+    Preserved: 39
+  WTHR-MCHUB-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WTHR-MCHUB-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WTHR-UW01:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WTHR-UW02:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WTHR-XMIT1-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WTHR-XMIT1-UW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTHR_ENG-105:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTHR_ENG-106:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTHR_ENG-17:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WTHR_ENG-18:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WTHR_ENG-70:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTHR_ENG-79:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTHR_ENG-86:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WTHR_ENG-95:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTHR_ENG-96:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  WTHR_GAR-38:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WTHR_NSSC-01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WTHR_NSSC-02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WTHR_NSSC-03:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTHR_PCR-59:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTHR_PrdTrk13:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  WTHR_SLS-41:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTHR_Studio-B:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTHR_Tech-35:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WTHR_Telco-39:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WTHR_TSL-STL:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  WTIC-BC-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTIC-BC-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WTIC-CORE-A:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WTIC-ELEVATOR-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTIC-FINANCE-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WTIC-MCHUB-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTIC-MCHUB-SW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTIC-MGMT01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WTIC-NEWS-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTIC-TERMINAL-SW01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WTIC-TERMINAL-SW02:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WTIC-TRANS-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTIC-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WTIC-UW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTLV-2960G-BC-SW-C:
+    Total files: 47
+    To delete: 0
+    Preserved: 47
+  WTLV-2960S-2NDFLR-SW-C:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-2960S-NEWS-SW-C:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-2NDFLOOR-SW15:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTLV-BC-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTLV-BC-SW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTLV-CLEARCOM_CLOSET-SW01:
+    Total files: 34
+    To delete: 0
+    Preserved: 34
+  WTLV-CORE-A_NEW:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WTLV-CORE-A:
+    Total files: 69
+    To delete: 0
+    Preserved: 69
+  WTLV-DMARC:
+    Total files: 34
+    To delete: 0
+    Preserved: 34
+  WTLV-DR1-UW01:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  WTLV-ENG-SW02:
+    Total files: 11
+    To delete: 0
+    Preserved: 11
+  WTLV-MASTER-SW-1:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WTLV-MASTER-SW-2:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WTLV-MCHUB-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTLV-MCHUB-SW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTLV-NET_RM-RK1-SW01:
+    Total files: 38
+    To delete: 0
+    Preserved: 38
+  WTLV-NET_RM-RK15-SW01:
+    Total files: 33
+    To delete: 0
+    Preserved: 33
+  WTLV-NET_RM-RK33-SW01:
+    Total files: 35
+    To delete: 0
+    Preserved: 35
+  WTLV-NEWS-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-NEWSTUDIO-A:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WTLV-NEWSTUDIO-B:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-RACKROOM01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WTLV-SALES-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-SALES-SW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-SALES_CLOSET:
+    Total files: 33
+    To delete: 0
+    Preserved: 33
+  WTLV-SVR-SW03:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-TWR-CORE-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-TWR-CORE-B:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTLV-UW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTLV-UW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTLV-XMIT1-ISO-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WTLV-XMIT1-ISO-SW02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WTLV-XMIT1-ISO-SW03:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WTLV-XMIT1-ISO-SW04:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WTLV-XMIT1-SW01:
+    Total files: 52
+    To delete: 0
+    Preserved: 52
+  WTLV-XMIT1-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WTLV-XMIT1-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTOL-2960-STACK:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTOL-BC2960-1:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  WTOL-CORE-A:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WTOL-IT-OFFICE:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  WTOL-MCHUB-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTOL-MCHUB-SW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTOL-MICRO-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WTOL-NEWS-2960-1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTOL-NR1-SW01:
+    Total files: 24
+    To delete: 0
+    Preserved: 24
+  WTOL-PROMOTER:
+    Total files: 15
+    To delete: 0
+    Preserved: 15
+  WTOL-PROMPTER-2960:
+    Total files: 4
+    To delete: 0
+    Preserved: 4
+  WTOL-RKRM-ER16-SW01:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  WTOL-RKRM-ER16-SW02:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  WTOL-RKRM-ER16-SW03:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WTOL-RKRM-ER37-SW01:
+    Total files: 7
+    To delete: 0
+    Preserved: 7
+  WTOL-RKRM-RER23-SW01:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  WTOL-RKRM-RER37-SW01_RENAME:
+    Total files: 1
+    To delete: 0
+    Preserved: 1
+  WTOL-RKRM-RER37-SW01:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WTOL-SPARE:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  WTOL-SRV-9300-STACK:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  WTOL-UW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTOL-UW02:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTOL-WSI-2960:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  WTOL-XMIT1-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WTOL-XMIT2-SW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WTSP-2960-OOB-SW-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-2960G-BC-SW-C:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-9200-SCR:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-Automation-SW-1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-AUTOMATION-SW-1:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTSP-Automation-SW-2:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WTSP-BITCENTRAL-1:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTSP-BITCENTRAL-SW2:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTSP-BUSINESS-VOIP-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-BUSINESS-VOIP-C:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-CAMBOT-SW-1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-CAMBOT-SW-2:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTSP-CITRUS-SW01:
+    Total files: 40
+    To delete: 0
+    Preserved: 40
+  WTSP-CITRUS-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WTSP-CLIENTSW-1:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTSP-CLIENTSW-2:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WTSP-DR1-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WTSP-DR1-SW03:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTSP-DR1-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WTSP-ENG-SHOP:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WTSP-Equip-RM-SW1:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTSP-FEED-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-MCHUB-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WTSP-MCHUB-SW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTSP-News-VOIP-A:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTSP-News-VOIP-B:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WTSP-RACKROOM-R29-SW01:
+    Total files: 38
+    To delete: 0
+    Preserved: 38
+  WTSP-RACKROOM-R38-SW01:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WTSP-SCR-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WTSP-ServerSW-1stfl:
+    Total files: 42
+    To delete: 0
+    Preserved: 42
+  WTSP-STUDIO-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WTSP-SVR-ROOM-R2-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WTSP-SVR-SW-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-SVR-SW-B:
+    Total files: 43
+    To delete: 0
+    Preserved: 43
+  WTSP-TOC-R4-SW01:
+    Total files: 43
+    To delete: 0
+    Preserved: 43
+  WTSP-UTAH-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WTSP-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-UW02:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WTSP-UW04:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WTSP-XMIT1-SW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WTSP-XMIT1-UW01:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WUSA-155-STACK-A:
+    Total files: 20
+    To delete: 0
+    Preserved: 20
+  WUSA-155-STACK-B:
+    Total files: 15
+    To delete: 0
+    Preserved: 15
+  WUSA-2960-1STFLOOR-SW-A:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-2960-1STFLOOR-SW-B:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-2960-1STFLOOR-SW-C:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-2960-1STFLOOR-SW-D:
+    Total files: 1
+    To delete: 0
+    Preserved: 1
+  WUSA-2960-4THFLOOR-SW-A:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WUSA-2960-4THFLOOR-SW-B:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WUSA-2960-BACKUP:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-2nd-3650-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-3rd-3650-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-3rd-3650-SW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-4TH-1000-SW01:
+    Total files: 63
+    To delete: 0
+    Preserved: 63
+  WUSA-4th-3650-SW01:
+    Total files: 21
+    To delete: 0
+    Preserved: 21
+  WUSA-4th-3650-SW02:
+    Total files: 23
+    To delete: 0
+    Preserved: 23
+  WUSA-9200-1STFLOOR-SECURITY-1:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WUSA-9200-1STFLOOR-SW-A:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WUSA-C1000-UTIL-E:
+    Total files: 35
+    To delete: 0
+    Preserved: 35
+  WUSA-C1000-UTIL-G:
+    Total files: 24
+    To delete: 0
+    Preserved: 24
+  WUSA-C1000-UTIL-H:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  WUSA-C1000-UTIL-I:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WUSA-C1000-UTIL-J:
+    Total files: 18
+    To delete: 0
+    Preserved: 18
+  WUSA-C1000-UTIL-K:
+    Total files: 20
+    To delete: 0
+    Preserved: 20
+  WUSA-C1000-UTIL-L:
+    Total files: 26
+    To delete: 0
+    Preserved: 26
+  WUSA-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WUSA-MC-SW01:
+    Total files: 79
+    To delete: 0
+    Preserved: 79
+  WUSA-MC-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WUSA-MCHUB-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WUSA-MCHUB-SW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WUSA-RK155-SW-A:
+    Total files: 122
+    To delete: 0
+    Preserved: 122
+  WUSA-STACK-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WUSA-STACK-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WUSA-STUDIO-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WUSA-UW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WUSA-UW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WUSA-XMITTER-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WVEC-ACCESS-SW02:
+    Total files: 42
+    To delete: 0
+    Preserved: 42
+  WVEC-ACCESS-SW04:
+    Total files: 43
+    To delete: 0
+    Preserved: 43
+  WVEC-ACCESS-SW06:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WVEC-ACCESS-SW08:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  WVEC-ACCESS-SW09:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  WVEC-ACCESS-SW10:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WVEC-ACCESS-SW11:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WVEC-ACCESSSW-01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WVEC-ACCESSSW-02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WVEC-ACCESSSW-03:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WVEC-ACCESSSW-04:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WVEC-ACCESSSW-05:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WVEC-BITCTRL2-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WVEC-BITCTRL2-SW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WVEC-CAMERA-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WVEC-CORE-A_NEW:
+    Total files: 23
+    To delete: 0
+    Preserved: 23
+  WVEC-CORE-A:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WVEC-CRISPIN-SW01:
+    Total files: 19
+    To delete: 0
+    Preserved: 19
+  WVEC-CRISPIN-SW02:
+    Total files: 19
+    To delete: 0
+    Preserved: 19
+  WVEC-ISLAND1-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WVEC-ISLAND1-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WVEC-ISLAND2-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WVEC-ISLAND2-SW02:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WVEC-ISLAND3-SW01:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WVEC-ISLAND3-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WVEC-ISLAND4-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WVEC-ISLAND4-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WVEC-MCHUB-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WVEC-MCHUB-SW02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WVEC-PCR-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WVEC-PCR-SW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WVEC-SERVER-SW01:
+    Total files: 41
+    To delete: 0
+    Preserved: 41
+  WVEC-UW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WVEC-UW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WVEC-XMIT1-UW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WWL-CORE-A:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  WWL-CORE-B:
+    Total files: 19
+    To delete: 0
+    Preserved: 19
+  WWL-DR1-UW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WWL-ENG-RK101D-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  wwl-eng-rk111-sw01:
+    Total files: 48
+    To delete: 0
+    Preserved: 48
+  wwl-eng-rk111-sw02:
+    Total files: 46
+    To delete: 0
+    Preserved: 46
+  wwl-eng-rk204-sw02:
+    Total files: 48
+    To delete: 0
+    Preserved: 48
+  wwl-eng-rk206-sw01:
+    Total files: 72
+    To delete: 0
+    Preserved: 72
+  wwl-eng-rk206-sw02:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WWL-ENG-RK208-SW01:
+    Total files: 15
+    To delete: 0
+    Preserved: 15
+  wwl-eng-rk212-sw01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  wwl-eng-rk212-sw02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WWL-ENG-RK4B-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WWL-ENG-RK81-SW01:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  WWL-ENG-RK81-SW02:
+    Total files: 22
+    To delete: 0
+    Preserved: 22
+  wwl-float1-sw01:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  WWL-GRAPHICS-SW01:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  wwl-ma199-sw01:
+    Total files: 44
+    To delete: 0
+    Preserved: 44
+  WWL-MCHUB-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WWL-MCHUB-SW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WWL-MCHUB-SW03:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WWL-MCHUB-SW04:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WWL-MDF-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  wwl-neng-rk301-sw01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  wwl-neng-rk301-sw02:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WWL-NENG-RK305-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WWL-NEWS-IDF-SW01:
+    Total files: 77
+    To delete: 0
+    Preserved: 77
+  wwl-studio-portrack-sw01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  wwl-sw-ed-coc-rk12:
+    Total files: 5
+    To delete: 0
+    Preserved: 5
+  wwl-sw-ed-coc-rk24-1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-coc-rk24-2:
+    Total files: 40
+    To delete: 0
+    Preserved: 40
+  wwl-sw-ed-coc-secur1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-coc-waps:
+    Total files: 41
+    To delete: 0
+    Preserved: 41
+  wwl-sw-ed-ctrlb-rk66:
+    Total files: 42
+    To delete: 0
+    Preserved: 42
+  wwl-sw-ed-elc-cam1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-elc1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-elc2:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-graphics:
+    Total files: 10
+    To delete: 0
+    Preserved: 10
+  wwl-sw-ed-mc-rk201:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-mc-rk207:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-mc-rk4b:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-mc-rk81:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-mcauto-1x:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-mcauto-2x:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-newseng-1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ed-newseng-2:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-iscsi-a:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  wwl-sw-iscsi-b:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  wwl-sw-itdesk:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  wwl-sw-odmz1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-coc1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-coc2:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-coc3:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-coc4:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-coc5:
+    Total files: 48
+    To delete: 0
+    Preserved: 48
+  wwl-sw-ph-nw1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-nw2:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-nx1:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-nx2:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-ph-temp-rc1:
+    Total files: 31
+    To delete: 0
+    Preserved: 31
+  wwl-sw-ph-temp-rc2:
+    Total files: 16
+    To delete: 0
+    Preserved: 16
+  wwl-sw-rem-advno:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  wwl-sw-rem-txc-main:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  wwl-sw-rem-txc-phone:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  wwl-sw-rem-txc-radar:
+    Total files: 51
+    To delete: 0
+    Preserved: 51
+  wwl-sw-rem-txc-rck95-sw01:
+    Total files: 9
+    To delete: 0
+    Preserved: 9
+  wwl-sw-rem-txc-rk25:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-rem-txc-twr300:
+    Total files: 17
+    To delete: 0
+    Preserved: 17
+  wwl-sw-rem-txc-twr500:
+    Total files: 17
+    To delete: 0
+    Preserved: 17
+  wwl-sw-rem-txc-twr900:
+    Total files: 8
+    To delete: 0
+    Preserved: 8
+  wwl-sw-rmdoffice:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  wwl-sw-sec-bp1:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  wwl-sw-sec-bsp1:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  wwl-sw-sec-ma199:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  wwl-sw-sec-nw1:
+    Total files: 39
+    To delete: 0
+    Preserved: 39
+  wwl-sw-sec-nx1:
+    Total files: 37
+    To delete: 0
+    Preserved: 37
+  wwl-sw-sec-txc:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  wwl-sw-txc-atsc3-2:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WWL-UW01:
+    Total files: 14
+    To delete: 0
+    Preserved: 14
+  WWL-UW02:
+    Total files: 12
+    To delete: 0
+    Preserved: 12
+  WXIA-BC-SW01:
+    Total files: 64
+    To delete: 0
+    Preserved: 64
+  WXIA-BC-SW02:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WXIA-CORE-A:
+    Total files: 68
+    To delete: 0
+    Preserved: 68
+  WXIA-GUARDSHK:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WXIA-INOVA-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WXIA-MARK-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WXIA-MARK-SW02:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WXIA-MC-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WXIA-MC-SW02:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WXIA-MC-SW03:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WXIA-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WXIA-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WXIA-NEWS-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WXIA-NEWS-SW02:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WXIA-SALES-SW01:
+    Total files: 56
+    To delete: 0
+    Preserved: 56
+  WXIA-Studio-B:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WXIA-SVRRM-SW01:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WXIA-SVRRM-SW02:
+    Total files: 62
+    To delete: 0
+    Preserved: 62
+  WXIA-TECH-SW01:
+    Total files: 84
+    To delete: 0
+    Preserved: 84
+  WXIA-TECH-SW02:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WXIA-TELCO-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WXIA-UW01:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WXIA-UW02:
+    Total files: 67
+    To delete: 0
+    Preserved: 67
+  WXIA-XMIT1-SW01:
+    Total files: 54
+    To delete: 0
+    Preserved: 54
+  WXIA-XMIT1-UW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WZDX-6509-SW01:
+    Total files: 55
+    To delete: 0
+    Preserved: 55
+  WZDX-CORE-A:
+    Total files: 70
+    To delete: 0
+    Preserved: 70
+  WZDX-MCHUB-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WZDX-MCHUB-SW02:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WZDX-MGMT01:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WZDX-NEWS-STACK-01:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WZDX-NGN-SW01:
+    Total files: 59
+    To delete: 0
+    Preserved: 59
+  WZDX-TECH-STACK-01:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WZDX-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WZDX-UW02:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WZZM-2ND-SW01:
+    Total files: 57
+    To delete: 0
+    Preserved: 57
+  WZZM-AUDIO-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WZZM-BC-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WZZM-BC-SW02:
+    Total files: 66
+    To delete: 0
+    Preserved: 66
+  WZZM-CORE-A:
+    Total files: 73
+    To delete: 0
+    Preserved: 73
+  WZZM-MC-SW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WZZM-MC-SW02:
+    Total files: 65
+    To delete: 0
+    Preserved: 65
+  WZZM-MC-SW04:
+    Total files: 71
+    To delete: 0
+    Preserved: 71
+  WZZM-MCHUB-SW01:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WZZM-MCHUB-SW02:
+    Total files: 53
+    To delete: 0
+    Preserved: 53
+  WZZM-STUDIO-SW01:
+    Total files: 61
+    To delete: 0
+    Preserved: 61
+  WZZM-SW01:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WZZM-SW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WZZM-SW03:
+    Total files: 118
+    To delete: 0
+    Preserved: 118
+  WZZM-SW04:
+    Total files: 100
+    To delete: 0
+    Preserved: 100
+  WZZM-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+  WZZM-UW02:
+    Total files: 50
+    To delete: 0
+    Preserved: 50
+  WZZM-XMIT1-SW01:
+    Total files: 60
+    To delete: 0
+    Preserved: 60
+  WZZM-XMIT1-UW01:
+    Total files: 58
+    To delete: 0
+    Preserved: 58
+
+Files to Delete: 11815 files (list truncated)

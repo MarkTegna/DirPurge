@@ -1,0 +1,33 @@
+============================================================
+DirPurge Operation Report
+============================================================
+Generated: 2026-01-07 18:24:53
+Target Directory: test_purge_demo
+Dry Run Mode: No
+
+Configuration:
+  Minimum files to keep: 3
+  Maximum age (days): 0
+  Excluded extensions: .PL, .TXT, .CSV, .ZIP
+
+Summary:
+  Total files scanned: 8
+  File sets found: 2
+  Files to delete: 2
+  Files preserved: 6
+  Actual deletions: 2
+  Execution time: 0.00 seconds
+
+File Set Details:
+  backup:
+    Total files: 5
+    To delete: 2
+    Preserved: 3
+  logs:
+    Total files: 3
+    To delete: 0
+    Preserved: 3
+
+Files to Delete:
+  - backup__002.dat (2026-01-07 18:23:55)
+  - backup__001.dat (2026-01-07 18:23:55)

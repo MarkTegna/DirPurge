@@ -1,0 +1,19 @@
+============================================================
+DirPurge Operation Report
+============================================================
+Generated: 2026-01-07 18:11:14
+Target Directory: test_target
+Dry Run Mode: Yes
+
+Configuration:
+  Minimum files to keep: 50
+  Maximum age (days): 366
+  Excluded extensions: .PL, .TXT, .CSV, .ZIP
+
+Summary:
+  Total files scanned: 0
+  File sets found: 0
+  Files to delete: 0
+  Files preserved: 0
+  Actual deletions: 0
+  Execution time: 0.00 seconds
