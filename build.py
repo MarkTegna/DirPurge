@@ -60,8 +60,23 @@ def build_executable():
     # Create dist directory
     dist_dir = Path("dist")
     if dist_dir.exists():
-        shutil.rmtree(dist_dir)
-    dist_dir.mkdir()
+        try:
+            shutil.rmtree(dist_dir)
+        except OSError as e:
+            print(f"Warning: Could not remove existing dist directory: {e}")
+            print("Attempting to clean individual files...")
+            try:
+                for item in dist_dir.iterdir():
+                    if item.is_file():
+                        item.unlink()
+                    elif item.is_dir():
+                        shutil.rmtree(item)
+            except OSError as e2:
+                print(f"Error: Could not clean dist directory: {e2}")
+                return False
+    
+    if not dist_dir.exists():
+        dist_dir.mkdir()
     
     # PyInstaller command
     pyinstaller_cmd = [
