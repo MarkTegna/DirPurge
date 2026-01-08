@@ -1,5 +1,5 @@
 """Version information for DirPurge"""
 
-__version__ = "1.1.1"
+__version__ = "1.2.2"
 __author__ = "Mark Oldham"
-__compile_date__ = "2026-01-07"
+__compile_date__ = "2026-01-08"

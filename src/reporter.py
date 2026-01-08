@@ -6,6 +6,13 @@ from pathlib import Path
 from typing import Dict, List
 from .models import PurgeResult, Config
 
+try:
+    from openpyxl import Workbook
+    from openpyxl.styles import Font, PatternFill
+    XLSX_AVAILABLE = True
+except ImportError:
+    XLSX_AVAILABLE = False
+
 
 class Reporter:
     """Generates detailed reports of purge operations"""
@@ -97,3 +104,64 @@ class Reporter:
     def format_filename(self, timestamp: datetime) -> str:
         """Format filename using YYYYMMDD-HH-MM format"""
         return f"dirpurge_{timestamp.strftime('%Y%m%d-%H-%M')}.txt"
+    
+    def generate_xlsx_report(self, file_groups: Dict[str, List], timestamp: datetime = None) -> Path:
+        """Generate Excel file with file set summary"""
+        if not XLSX_AVAILABLE:
+            raise ImportError("openpyxl library is required for XLSX export")
+        
+        if timestamp is None:
+            timestamp = datetime.now()
+        
+        # Create reports directory if it doesn't exist
+        self.reports_directory.mkdir(parents=True, exist_ok=True)
+        
+        # Generate filename with YYYYMMDD-HH-MM format
+        filename = f"dirpurge_{timestamp.strftime('%Y%m%d-%H-%M')}.xlsx"
+        xlsx_path = self.reports_directory / filename
+        
+        # Create workbook and worksheet
+        wb = Workbook()
+        ws = wb.active
+        ws.title = "File Sets Summary"
+        
+        # Add headers
+        headers = ["Set Name", "Newest File Date", "Total Files"]
+        ws.append(headers)
+        
+        # Style headers
+        header_font = Font(bold=True)
+        header_fill = PatternFill(start_color="CCCCCC", end_color="CCCCCC", fill_type="solid")
+        
+        for col_num, header in enumerate(headers, 1):
+            cell = ws.cell(row=1, column=col_num)
+            cell.font = header_font
+            cell.fill = header_fill
+        
+        # Add data rows
+        for set_name, files in file_groups.items():
+            if files:
+                # Find the newest file in the set
+                newest_file = max(files, key=lambda f: f.modified_time)
+                newest_date = newest_file.modified_time.strftime('%Y-%m-%d %H:%M:%S')
+                total_files = len(files)
+                
+                ws.append([set_name, newest_date, total_files])
+        
+        # Auto-adjust column widths
+        for column in ws.columns:
+            max_length = 0
+            column_letter = column[0].column_letter
+            for cell in column:
+                try:
+                    if len(str(cell.value)) > max_length:
+                        max_length = len(str(cell.value))
+                except:
+                    pass
+            adjusted_width = min(max_length + 2, 50)  # Cap at 50 characters
+            ws.column_dimensions[column_letter].width = adjusted_width
+        
+        # Save workbook
+        wb.save(xlsx_path)
+        
+        return xlsx_path

@@ -121,6 +121,16 @@ def main(args: Optional[list] = None) -> int:
         
         print(f"Report saved to: {report_path}")
         
+        # Generate XLSX report if enabled
+        if config.generate_xlsx:
+            try:
+                xlsx_path = reporter.generate_xlsx_report(file_groups)
+                print(f"Excel report saved to: {xlsx_path}")
+            except ImportError as e:
+                print(f"Warning: Could not generate Excel report: {e}")
+            except Exception as e:
+                print(f"Warning: Failed to generate Excel report: {e}")
+        
         # Send email if configured
         if config.email_settings and config.email_settings.send_email:
             email_service = EmailService(config.email_settings)

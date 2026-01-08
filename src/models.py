@@ -40,6 +40,7 @@ class Config:
     dry_run: bool = False
     reports_directory: str = './reports'
     email_settings: Optional[EmailConfig] = None
+    generate_xlsx: bool = False
 
 
 @dataclass

@@ -56,7 +56,8 @@ class ConfigManager:
                         general.get('excluded_extensions', '.PL,.TXT,.CSV,.ZIP')
                     ),
                     'dry_run': general.getboolean('dry_run', False),
-                    'reports_directory': general.get('reports_directory', './reports')
+                    'reports_directory': general.get('reports_directory', './reports'),
+                    'generate_xlsx': general.getboolean('generate_xlsx', False)
                 })
             
             # Parse email section
@@ -128,7 +129,8 @@ class ConfigManager:
             excluded_extensions=config_dict.get('excluded_extensions', ['.PL', '.TXT', '.CSV', '.ZIP']),
             dry_run=config_dict.get('dry_run', False),
             reports_directory=config_dict.get('reports_directory', './reports'),
-            email_settings=config_dict.get('email_settings')
+            email_settings=config_dict.get('email_settings'),
+            generate_xlsx=config_dict.get('generate_xlsx', False)
         )
     
     def parse_cli_args(self, args: Optional[List[str]] = None) -> Dict[str, Any]:
@@ -178,6 +180,13 @@ class ConfigManager:
             '-r', '--reports-directory',
             dest='reports_directory',
             help='Directory to save reports (default: ./reports)'
+        )
+        
+        parser.add_argument(
+            '--generate-xlsx',
+            dest='generate_xlsx',
+            action='store_true',
+            help='Generate Excel file with file set summary (default: false)'
         )
         
         # Email options
@@ -267,6 +276,8 @@ class ConfigManager:
             config_dict['dry_run'] = True
         if parsed_args.reports_directory is not None:
             config_dict['reports_directory'] = parsed_args.reports_directory
+        if parsed_args.generate_xlsx:
+            config_dict['generate_xlsx'] = True
         
         # Email settings - create EmailConfig if any email args are provided
         email_args = {
