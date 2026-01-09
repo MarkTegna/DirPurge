@@ -112,11 +112,14 @@ def build_executable():
             shutil.copy2(file_name, dist_dir)
             print(f"Copied {file_name} to dist/")
     
-    # Create version-specific ZIP distribution
-    zip_name = f"dirpurge_v{current_version}.zip"
-    zip_path = Path(zip_name)
+    # Create version-specific ZIP distribution in releases directory
+    releases_dir = Path("releases")
+    releases_dir.mkdir(exist_ok=True)
     
-    print(f"\nCreating distribution ZIP: {zip_name}")
+    zip_name = f"dirpurge_v{current_version}.zip"
+    zip_path = releases_dir / zip_name
+    
+    print(f"\nCreating distribution ZIP: {zip_path}")
     
     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for file_path in dist_dir.rglob('*'):
