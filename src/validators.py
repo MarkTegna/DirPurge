@@ -26,11 +26,12 @@ class PathValidator:
     # Dangerous path patterns
     DANGEROUS_PATTERNS = [
         r'\.\.[\\/]',  # Directory traversal
-        r'^[\\/]',     # Absolute paths starting with / or \
         r'[\x00-\x1f]',  # Control characters
-        r'[<>:"|?*]',  # Windows forbidden characters
         r'^\s+|\s+$',  # Leading/trailing whitespace
     ]
+    
+    # Windows-specific forbidden characters (excluding : for drive letters and UNC paths)
+    WINDOWS_FORBIDDEN_IN_NAME = r'[<>"|?*]'
     
     # Reserved Windows names
     WINDOWS_RESERVED = {
@@ -43,6 +44,7 @@ class PathValidator:
     def validate_directory_path(cls, path: str, must_exist: bool = True) -> str:
         """
         Validate and sanitize directory path
+        Supports Windows drive letters (C:\) and UNC paths (\\server\share)
         
         Args:
             path: Directory path to validate
@@ -57,11 +59,18 @@ class PathValidator:
         if not path or not isinstance(path, str):
             raise ValidationError("Directory path cannot be empty")
         
-        # Check for dangerous patterns
+        # Check for dangerous patterns (excluding legitimate absolute paths)
         for pattern in cls.DANGEROUS_PATTERNS:
             if re.search(pattern, path, re.IGNORECASE):
                 logger.security_event(f"Dangerous path pattern detected: {pattern}", severity="ERROR")
                 raise ValidationError(f"Path contains dangerous pattern: {path}")
+        
+        # Check for forbidden characters in path components
+        # Split by path separators and check each component
+        path_components = re.split(r'[\\/]', path)
+        for component in path_components:
+            if component and re.search(cls.WINDOWS_FORBIDDEN_IN_NAME, component):
+                raise ValidationError(f"Path component contains forbidden characters: {component}")
         
         # Convert to Path object for normalization
         try:
@@ -69,12 +78,15 @@ class PathValidator:
         except (OSError, ValueError) as e:
             raise ValidationError(f"Invalid path format: {path} - {e}")
         
-        # Check path length (Windows MAX_PATH limitation)
+        # Check path length (Windows MAX_PATH limitation - can be longer with \\?\ prefix)
         if len(str(path_obj)) > 260:
-            raise ValidationError(f"Path too long (max 260 characters): {path}")
+            logger.warning(f"Path exceeds 260 characters, may cause issues on some systems: {path}")
         
-        # Check for reserved names
+        # Check for reserved names in path components
         for part in path_obj.parts:
+            # Skip drive letters and UNC server names
+            if ':' in part or part.startswith('\\\\'):
+                continue
             if part.upper().split('.')[0] in cls.WINDOWS_RESERVED:
                 raise ValidationError(f"Path contains reserved name: {part}")
         
@@ -101,6 +113,7 @@ class PathValidator:
     def validate_file_path(cls, path: Union[str, Path]) -> Path:
         """
         Validate file path for safety
+        Supports Windows drive letters (C:\) and UNC paths (\\server\share)
         
         Args:
             path: File path to validate
@@ -116,11 +129,17 @@ class PathValidator:
         
         path_str = str(path)
         
-        # Check for dangerous patterns
+        # Check for dangerous patterns (excluding legitimate absolute paths)
         for pattern in cls.DANGEROUS_PATTERNS:
             if re.search(pattern, path_str, re.IGNORECASE):
                 logger.security_event(f"Dangerous file path pattern: {pattern}", severity="ERROR")
                 raise ValidationError(f"File path contains dangerous pattern: {path_str}")
+        
+        # Check for forbidden characters in path components
+        path_components = re.split(r'[\\/]', path_str)
+        for component in path_components:
+            if component and re.search(cls.WINDOWS_FORBIDDEN_IN_NAME, component):
+                raise ValidationError(f"Path component contains forbidden characters: {component}")
         
         try:
             path_obj = Path(path_str).resolve()
@@ -129,7 +148,7 @@ class PathValidator:
         
         # Check path length
         if len(str(path_obj)) > 260:
-            raise ValidationError(f"File path too long (max 260 characters): {path_str}")
+            logger.warning(f"File path exceeds 260 characters, may cause issues on some systems: {path_str}")
         
         return path_obj
 
@@ -211,7 +230,8 @@ class ConfigValidator:
         if isinstance(extensions, str):
             if not extensions.strip():
                 return []
-            ext_list = [ext.strip() for ext in extensions.split(',')]
+            # Split by comma and/or whitespace to handle various formats
+            ext_list = [ext.strip() for ext in re.split(r'[,\s]+', extensions)]
         elif isinstance(extensions, list):
             ext_list = [str(ext).strip() for ext in extensions]
         else:
@@ -222,13 +242,18 @@ class ConfigValidator:
             if not ext:
                 continue
             
-            # Ensure extension starts with dot
-            if not ext.startswith('.'):
-                ext = '.' + ext
+            # Remove any extra dots (e.g., ".7z." becomes ".7z")
+            ext = ext.strip('.')
+            if not ext:
+                continue
             
-            # Validate extension format
+            # Ensure extension starts with dot
+            ext = '.' + ext
+            
+            # Validate extension format (alphanumeric only)
             if not re.match(r'^\.[a-zA-Z0-9]+$', ext):
-                raise ValidationError(f"Invalid file extension format: {ext}")
+                logger.warning(f"Skipping invalid file extension format: {ext}")
+                continue
             
             # Convert to uppercase for consistency
             validated.append(ext.upper())
@@ -401,37 +426,49 @@ def validate_all_inputs(config_dict: dict) -> dict:
         email_config = config_dict['email_settings']
         validated_email = {}
         
-        if hasattr(email_config, 'send_email'):
+        # Handle EmailConfig objects, dicts, or other types
+        def get_value(obj, key, default=None):
+            if obj is None:
+                return default
+            if isinstance(obj, dict):
+                return obj.get(key, default)
+            return getattr(obj, key, default)
+        
+        send_email = get_value(email_config, 'send_email')
+        if send_email is not None:
             validated_email['send_email'] = ConfigValidator.validate_boolean(
-                email_config.send_email, name="send_email"
+                send_email, name="send_email"
             )
         
-        if hasattr(email_config, 'smtp_server') and email_config.smtp_server:
-            validated_email['smtp_server'] = EmailValidator.validate_smtp_server(
-                email_config.smtp_server
-            )
+        smtp_server = get_value(email_config, 'smtp_server')
+        if smtp_server:
+            validated_email['smtp_server'] = EmailValidator.validate_smtp_server(smtp_server)
         
-        if hasattr(email_config, 'smtp_port'):
-            validated_email['smtp_port'] = EmailValidator.validate_smtp_port(
-                email_config.smtp_port
-            )
+        smtp_port = get_value(email_config, 'smtp_port')
+        if smtp_port is not None:
+            validated_email['smtp_port'] = EmailValidator.validate_smtp_port(smtp_port)
         
-        if hasattr(email_config, 'from_email') and email_config.from_email:
+        from_email = get_value(email_config, 'from_email')
+        if from_email:
             validated_email['from_email'] = EmailValidator.validate_email_address(
-                email_config.from_email, name="from_email"
+                from_email, name="from_email"
             )
         
-        if hasattr(email_config, 'to_email') and email_config.to_email:
+        to_email = get_value(email_config, 'to_email')
+        if to_email:
             validated_email['to_email'] = EmailValidator.validate_email_address(
-                email_config.to_email, name="to_email"
+                to_email, name="to_email"
             )
         
         # Copy other email settings
         for attr in ['smtp_use_tls', 'smtp_username', 'smtp_password']:
-            if hasattr(email_config, attr):
-                validated_email[attr] = getattr(email_config, attr)
+            value = get_value(email_config, attr)
+            if value is not None:
+                validated_email[attr] = value
         
-        validated['email_settings'] = validated_email
+        # Only add to validated if we have email settings
+        if validated_email:
+            validated['email_settings'] = validated_email
     
     # Copy other settings
     for key, value in config_dict.items():

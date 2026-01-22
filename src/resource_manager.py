@@ -20,7 +20,7 @@ logger = get_logger()
 class ResourceLimits:
     """Resource limit configuration"""
     max_memory_mb: int = 512  # Maximum memory usage in MB
-    max_files_per_scan: int = 100000  # Maximum files to process in one scan
+    max_files_per_scan: int = 200000  # Maximum files to process in one scan
     max_operation_time_seconds: int = 3600  # Maximum operation time (1 hour)
     max_concurrent_operations: int = 1  # Maximum concurrent file operations
     scan_timeout_seconds: int = 300  # Directory scan timeout (5 minutes)

@@ -77,8 +77,7 @@ def main(args: Optional[list] = None) -> int:
             
             # Validate all inputs with security checks
             try:
-                validated_config = validate_all_inputs(merged_config)
-                merged_config.update(validated_config)
+                validate_all_inputs(merged_config)
             except ValidationError as e:
                 ErrorHandler.log_error(f"Input validation failed: {e}")
                 return 1
