@@ -78,7 +78,7 @@ def build_executable():
     if not dist_dir.exists():
         dist_dir.mkdir()
     
-    # PyInstaller command
+    # PyInstaller command with explicit package collection
     pyinstaller_cmd = [
         "python", "-m", "PyInstaller",
         "--onefile",
@@ -86,6 +86,9 @@ def build_executable():
         "--distpath=dist",
         "--workpath=build",
         "--specpath=build",
+        "--collect-all=src",
+        "--hidden-import=psutil",
+        "--hidden-import=openpyxl",
         "dirpurge.py"
     ]
     
